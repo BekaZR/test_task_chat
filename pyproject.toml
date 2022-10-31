@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "basic-project-architecture"
+version = "0.1.0"
+description = ""
+authors = ["Beknazar Abdyldaev <abdyldaev.duff@gmail.com>"]
+readme = "README.md"
+packages = [{include = "basic_project_architecture"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.2"
+djangorestframework = "^3.14.0"
+channels = "^4.0.0"
+drf-yasg = "^1.21.4"
+celery = "^5.2.7"
+redis = "^4.3.4"
+django-environ = "^0.9.0"
+daphne = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
